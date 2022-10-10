@@ -63,7 +63,7 @@ public class MergeSort {
         mergeSort(a, 0, n - 1);
 
         for (int i = 0; i < n; i++) {
-            System.out.println(a[i] + " ");
+            System.out.print(a[i] + " ");
         }
 
     }
